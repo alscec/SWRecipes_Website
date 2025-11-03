@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SW Recipes — Soluzioni Software | Alessandro Cecconi</title>
+    <meta name="description" content="SW Recipes: consulenza e sviluppo software. Soluzioni snelle e veloci per PMIs e startup.">
+    <link rel="icon" href="/assets/logo.png" type="image/svg+xml">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop">
+    <link rel="stylesheet" href="styles.css">
+    <meta property="og:title" content="SW Recipes — Soluzioni Software">
+    <meta property="og:description" content="Consulenza e sviluppo software. Veloci, chiari, essenziali.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sw-recipes.com/">
+
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav__inner">
+            <div class="logo">SW<span>Recipes</span></div>
+            <nav class="nav__links">
+                <a href="#servizi">Servizi</a>
+                <a href="#stack">Stack</a>
+                <a href="#contatti" class="btn">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__bg"></div>
+            <div class="container hero__content">
+                <h1>Soluzioni Software <span class="grad">semplici & veloci</span></h1>
+                <p class="lead">Consulenza e sviluppo per PMI e startup. Niente fronzoli: brief chiaro, stima onesta, rilascio rapido.</p>
+                <div class="cta">
+                    <a href="#contatti" class="btn btn--primary">Parla con noi</a>
+                    <a href="#servizi" class="btn btn--ghost">Cosa facciamo</a>
+                </div>
+                <div class="hero__badge">
+                    <strong>Alessandro Cecconi</strong> — Software Solutions
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST / GRID -->
+        <section class="grid">
+            <div class="container grid__inner">
+                <article class="card">
+                    <h3>Consulenza</h3>
+                    <p>Architetture leggere, stime trasparenti, roadmap realistiche. Ottimizziamo ciò che hai prima di rifare da zero.</p>
+                </article>
+                <article class="card">
+                    <h3>Sviluppo veloce</h3>
+                    <p>Landing, micro-tool, integrazioni API, dashboard. Statico quando basta, serverless quando serve.</p>
+                </article>
+                <article class="card">
+                    <h3>Qualità essenziale</h3>
+                    <p>Clean code, sicurezza di base, performance. CI/CD minimale per mettere online spesso e senza ansia.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SERVIZI -->
+        <section id="servizi" class="features">
+            <div class="container">
+                <h2>Ricette semplici, risultati concreti</h2>
+                <ul class="features__list">
+                    <li><span>01</span> Siti statici super-veloci (HTML/CSS, GitHub Pages/Cloudflare)</li>
+                    <li><span>02</span> Integrazioni API (pagamenti, mail, analytics)</li>
+                    <li><span>03</span> Dashboard & micro-SaaS (serverless)</li>
+                    <li><span>04</span> Refactoring & performance tuning</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- STACK -->
+        <section id="stack" class="stack">
+            <div class="container stack__inner">
+                <div class="stack__copy">
+                    <h2>Stack tecnico “no-bullshit”</h2>
+                    <p>Usiamo ciò che serve, non ciò che è di moda. Statico quando è sufficiente, edge/serverless quando è richiesto. Pipeline essenziali, logiche chiare.</p>
+                    <div class="chips">
+                        <span class="chip">HTML/CSS</span>
+                        <span class="chip">TypeScript</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">GitHub Pages</span>
+                        <span class="chip">Cloudflare</span>
+                        <span class="chip">AWS Basics</span>
+                        <span class="chip">REST & Webhooks</span>
+                    </div>
+                </div>
+                <div class="stack__img">
+                    <img src="assets/img/code-grid.jpg" alt="Stack e lavagna con diagrammi software">
+                    <img class="logo-over-img" src="logo.png" alt="SW Recipes logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section id="contatti" class="ctaBlock">
+            <div class="container ctaBlock__inner">
+                <h2>Mettimi alla prova in una settimana</h2>
+                <p class="lead">Brief di 30 minuti → prototipo leggero online → feedback → iteriamo.</p>
+                <a class="btn btn--primary" href="mailto:hello@swrecipes.it?subject=Richiesta%20preventivo%20-%20SW%20Recipes">hello@swrecipes.it</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="logo">SW<span>Recipes</span></div>
+            <small>© <span id="y"></span> SW Recipes — Tutti i diritti riservati</small>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
